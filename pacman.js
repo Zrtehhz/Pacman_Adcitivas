@@ -1035,7 +1035,6 @@ var PACMAN = (function () {
         
         canvas.setAttribute("width", (blockSize * 19) + "px");
         canvas.setAttribute("height", (blockSize * 66) + 30 + "px");
-        canvas.setAttribute("paddingtop", (blockSize * 2) + 30 + "px");
 
         wrapper.appendChild(canvas);
 
